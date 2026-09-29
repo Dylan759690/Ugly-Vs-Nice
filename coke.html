@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Coke</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <!doctype html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>Coca-Cola Fan Page</title>
+                <style>
+                                        /* 1. Import Loki Cola directly from the web */
+                                        @import url("https://fonts.cdnfonts.com/css/loki-cola");
+
+                                        /* 1. Custom Font Definition */
+                                        @font-face {
+                                            font-family: "Loki Cola";
+                                            src: url("LOKICOLA.TTF") format("truetype");
+                                            font-weight: normal;
+                                            font-style: normal;
+                                        }
+
+                                        /* 2. Global Resets & Body Layout */
+                                        * {
+                                            box-sizing: border-box;
+                                            margin: 0;
+                                            padding: 0;
+                                        }
+
+                                        body {
+                                            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                                            background: linear-gradient(135deg, #f4f4f4 0%, #e0e0e0 100%);
+                                            color: #333;
+                                            line-height: 1.6;
+                                            padding-bottom: 60px;
+                                        }
+
+                                        /* 3. Modernized Navigation Bar (Replaces yellow/link divs) */
+                                        .nav-container {
+                                            background-color: #111;
+                                            padding: 10px 20px;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                                        }
+
+                                        .nav-container .h3 {
+                                            color: #f4f4f4;
+                                            font-size: 1.1rem;
+                                            text-transform: uppercase;
+                                            letter-spacing: 1px;
+                                        }
+
+                                        .link-menu {
+                                            display: flex;
+                                            gap: 20px;
+                                        }
+
+                                        .link-menu a {
+                                            color: #bbb;
+                                            text-decoration: none;
+                                            font-weight: 600;
+                                            transition: color 0.3s ease;
+                                        }
+
+                                        .link-menu a:hover {
+                                            color: #e50914; /* Coke Red hover effect */
+                                        }
+
+                                        /* 4. Header & Section Elements */
+                                        .hero-banner {
+                                            background: linear-gradient(to right, #e50914, #990000);
+                                            color: white;
+                                            text-align: center;
+                                            padding: 60px 20px;
+                                            box-shadow: inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+                                        }
+
+                                        .section-title {
+                                            max-width: 800px;
+                                            margin: 40px auto 20px auto;
+                                            padding: 10px 20px;
+                                            border-left: 5px solid #e50914;
+                                            font-size: 1.8rem;
+                                            color: #111;
+                                        }
+
+                                        /* 5. Typography Styles */
+
+                                            .aha {
+                                            font-family: "Loki Cola", sans-serif;
+                                            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+                                                font-size: 83px;
+                    }
+                                        }
+
+                                        /* 6. Media / Video Section */
+                                        .media-container {
+                                            max-width: 800px;
+                                            margin: 0 auto;
+                                            background: white;
+                                            padding: 20px;
+                                            border-radius: 8px;
+                                            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+                                        }
+
+                                        .video-wrapper {
+                                            position: relative;
+                                            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+                                            height: 0;
+                                            overflow: hidden;
+                                            border-radius: 4px;
+                                        }
+
+                                        .video-wrapper iframe {
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            width: 100%;
+                                            height: 100%;
+                                            border: 0;
+                                        }
+
+                                        img {
+                                            display: block;
+                                            margin: 30px auto;
+                                            width: 250px;
+                                            height: 250px;
+                                            object-fit: cover;
+                                            clip-path: circle(50%);
+                                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+                                        }
+                </style>
+            </head>
+            <body>
+                <!-- Redesigned, cohesive Header Section -->
+                <div class="hero-banner">
+                    <h1 class="aha">Coca Cola</h1>
+                </div>
+
+                <!-- Clean Navigation Bar -->
+                <div class="nav-container">
+                    <h3 class="h3">Navigation</h3>
+                    <div class="link-menu">
+                        <a href="index.html">Home</a>
+                        <a href="coke.html">Coke</a>
+                        <a href="pepsi.html">Pepsi</a>
+                    </div>
+                </div>
+
+                <!-- Content Title -->
+                <div class="section-title">
+                    <h2>Coke History & Culture</h2>
+                </div>
+
+                <!-- Content & Video Grid Wrapper -->
+                <div class="media-container">
+                    <!-- Embedded responsive YouTube Clip (Classic Coca-Cola Commercial compilation) -->
+                    <div class="video-wrapper">
+                        <iframe
+                            src="https://youtube.com"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <table class="center">
+                    <tr>
+                        <th>Variants</th>
+                        <th>Related Products</th>
+                    </tr>
+                    <tr>
+                        <td>Diet Coke</td>
+                        <td>Diet Coke Caffeine-Free</td>
+                    </tr>
+                    <tr>
+                        <td>Pepsi</td>
+                        <td>RC Cola</td>
+                    </tr>
+                    <tr>
+                        <td>Coca-Cola Zero Sugar</td>
+                        <td>Coca-Cola Cherry Vanilla</td>
+                    </tr>
+                </table>
+                <div class="white">
+                    <p>
+                        In order to stay competitive and keep its share of the soda market, Coca-Cola began introducing
+                        new products. Diet Coke was launched in 1982, and caffeine-free versions of both Coke and Diet
+                        Coke were introduced in 1983.
+                    </p>
+
+                    <p>Check Out: Corn Flakes, Mountain Dew and 9 Other Beloved Brands With a Twisted History</p>
+
+                    <p>
+                        Then in 1985, Coca-Cola made one of its most controversial moves when it launched “New Coke,”
+                        boasting a new, sweeter recipe more similar to Pepsi’s. This pivot backfired — consumers were
+                        outraged about the change and demanded the return of the original product.
+                    </p>
+                </div>
+                <div class="black">
+                    <h3 class="h3">After Its Setback, Coca-Cola Comes Out on Top</h3>
+                </div>
+                <div class="white">
+                    <p>
+                        Although the “New Coke” debacle could have been a disaster for Coca-Cola, it actually ended up
+                        paying off for the brand. People were excited about the return of Coca-Cola Classic, and began
+                        buying more Coke as a result.
+                    </p>
+
+                    <p>
+                        “People all of a sudden wanted to actually taste the beverage again,” Greising told the History
+                        Channel.
+                    </p>
+
+                    <p>
+                        Coke has been able to ride this wave in the decades since, with Coca-Cola continuing to top
+                        Pepsi’s yearly sales going forward.
+                    </p>
+                </div>
+                <img src="Screenshot%202026-09-23%20at%202.16.05%E2%80%AFPM.png" />
+                <style>
+                    img {
+                        width: 300px;
+                        height: 300px;
+                        image-rendering: center;
+                    }
+                </style>
+                <div class="purple">
+                    <h2 class="h2">Fun facts</h2>
+                </div>
+                <div class="orange">
+                    <div class="container">
+                        <ul class="myUL">
+                            <li>First Coke drink was red wine mixed with cocaine</li>
+                            <li>The recipe isn't as secret as you think</li>
+                            <li>Coca-Cola was once given out for free</li>
+                            <li>Bottles were shaped like cocoa bean</li>
+                            <li>Perfect temperature to drink: between 1 degree C and 3.3 degree</li>
+                        </ul>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </head>
+</html>
